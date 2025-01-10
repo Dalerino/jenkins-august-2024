@@ -9,3 +9,6 @@ instance_type = var.type
 availability_zone = var.az
 key_name = "my-laptop-key"
 }
+
+variable type {}
+variable az {}
